@@ -9,7 +9,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
     static TCHAR szClassName[] = TEXT("The Standard window Class");
-   static TCHAR szWindowTitle[] = TEXT("HELLOWIN->Mandar Kamble");
+    static TCHAR szWindowTitle[] = TEXT("HELLOWIN->Mandar Kamble");
 
     HWND hwnd = NULL;
 
